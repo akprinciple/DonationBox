@@ -5,8 +5,8 @@ import Header from '../components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'scaffold-stacks',
-  description: 'Built with scaffold-stacks',
+  title: 'Support Scaffold Stacks',
+  description: 'Help make building on Stacks feel effortless. Support Scaffold Stacks with an on-chain STX donation.',
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

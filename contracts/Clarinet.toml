@@ -1,6 +1,6 @@
 [project]
 name = "DonationBox"
-description = ""
+description = "Support Scaffold Stacks with transparent on-chain STX donations."
 authors = []
 telemetry = false
 cache_dir = "./.cache"
@@ -10,7 +10,7 @@ requirements = []
 passes = ["check_checker"]
 check_checker = { trusted_sender = false, trusted_caller = false, callee_filter = false }
 
-[contracts.counter]
-path = "contracts/counter.clar"
+[contracts.donation]
+path = "contracts/donation.clar"
 clarity_version = 6
 epoch = "4.0"

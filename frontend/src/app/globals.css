@@ -4,11 +4,21 @@
 @tailwind utilities;
 
 :root {
-  --background: #131416 !important;
-  --foreground: #f9fafb;
+  color-scheme: dark;
+  --background: #11130f;
+  --foreground: #f4f2e9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
+  min-height: 100vh;
 }

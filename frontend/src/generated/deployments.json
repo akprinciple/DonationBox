@@ -1,0 +1,11 @@
+{
+  "network": "testnet",
+  "deployed_at": "2026-10-22T22:21:04.935337563+00:00",
+  "contracts": {
+    "donation": {
+      "contract_id": "ST2QPZRNN9B6YRP8SAVZE8WZH7374BJC4XMXQ4TK9.donation",
+      "tx_id": "0x810cfee0bef0099f6f4f0ba6f6344b4b4afe01dde8993df5f193925d6d088a44",
+      "block_height": 0
+    }
+  }
+}
